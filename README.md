@@ -218,6 +218,8 @@ c.溢出菜单背景颜色、字体颜色
 
 ![Android 5.0以上效果](http://img.blog.csdn.net/20161018112946994)
 
+下面看下动图的效果，如下所示：
+![statusbar效果图.gif](http://upload-images.jianshu.io/upload_images/2369466-497cfb0782a848ec.gif?imageMogr2/auto-orient/strip)
 
 ###**代码实现**
 1 . 新建状态栏管理类StatusBarManager，定义枚举类型TintType，编写带四参数的构造方法，同时根据Andorid版本的不同对窗口进行配置
@@ -799,8 +801,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 ```
 
 
-**写在最后，希望以上内容能帮到您，不定时总结和记录个人的经验。如果喜欢的话可以关注我，非常感谢您的支持。**
-
+**写在最后，希望以上内容能帮到您，不定时总结和记录个人的经验。如果喜欢的话可以关注我，非常感谢您的支持。同时，欢迎加入移动开发学习交流qq群 ： 450302004，互相学习。**
 
 
 
