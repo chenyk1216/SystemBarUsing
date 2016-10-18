@@ -72,6 +72,7 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 String alphaStr = etAlpha.getText().toString().trim();
+                if ("".equals(alphaStr)) alphaStr = "0";
                 if (Integer.valueOf(alphaStr) < 0 || Integer.valueOf(alphaStr) > 255) {
                     ToastTool.showNativeShortToast(MainActivity.this, "抱歉，Alpha取值范围为0~255");
                     return;
