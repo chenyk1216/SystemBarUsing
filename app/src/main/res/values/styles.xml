@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- toolbar主题样式 -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- menu中showAsAction设置为ifRoom和always的item项（即操作栏上）字体颜色 -->
+        <item name="actionMenuTextColor">#00ad56</item>
+        <!-- menu中showAsAction设置为ifRoom和always的item项（即操作栏上）字体大小 -->
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+        <!-- 设置标题、menu中所有item字体颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 设置子标题字体颜色 -->
+        <!--<item name="android:textColorSecondary">#ffad56</item>-->
+    </style>
+
+    <!-- toolbar菜单中showAsAction为ifRoom的item项的文字尺寸 -->
+    <style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- toolbar标题字体样式 -->
+    <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- toolbar弹出菜单样式 -->
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">#ffffaa</item>
+        <item name="android:textColor">#fa4081</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
